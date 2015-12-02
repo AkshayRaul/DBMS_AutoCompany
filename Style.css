@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+/*CSS File For Sign-In webpage*/
+
+#Sign-In{
+margin-top:150px;
+margin-bottom:150px;
+margin-right:250px;
+margin-left:250px;
+padding:9px 35px; 
+width:500px;
+#button{
+border-radius:20px;
+width:100px;
+height:40px;
+background:#e0b156;
+font-weight:bold;
+font-size:20px
+}
+}
+#Search{
+margin-top:-560px;
+margin-bottom:-560px;
+margin-right:500px;
+margin-left:500px;
+padding:9px 35px; 
+width:1500px;
+#button2{
+border-radius:20px;
+width:100px;
+height:40px;
+background:#e0b156;
+font-weight:bold;
+font-size:20px
+
+	}
+}
+#Service{
+margin-top:560px;
+margin-bottom:560px;
+margin-right:500px;
+margin-left:500px;
+padding:9px 35px; 
+width:1500px;
+#button2{
+border-radius:20px;
+width:100px;
+height:40px;
+background:#e0b156;
+font-weight:bold;
+font-size:20px
+
+	}
+}
+#Retrieve{
+margin-top:100px;
+margin-bottom:200px;
+margin-right:500px;
+margin-left:300px;
+padding:9px 35px; 
+width:1500px;
+
+#button2{
+border-radius:20px;
+width:100px;
+height:40px;
+background:#e0b156;
+font-weight:bold;
+font-size:20px
+	}
+}
+#body-image{
+background-image: url(jaguar.jpg); 
+    background-size: 100px,80px;
+ 
+ 
+}
