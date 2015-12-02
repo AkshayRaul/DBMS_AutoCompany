@@ -53,21 +53,6 @@ CREATE TABLE IF NOT EXISTS `Customer` (
 --
 
 INSERT INTO `Customer` (`Name`, `CustomerId`, `RegistrationNo`, `Address`, `Phoneno`, `PANno`) VALUES
-('Prasad', 2015001, 0, 'nala', 68486, 55),
-('Akshay', 2015010, 123456789, 'B/204', 2147483647, 1111),
-('Preeti raul', 2015011, 121221, 'b/204,WestAvnue', 98755252, 3333),
-('Akshay', 2015012, 1001, 'Mumbai', 2413633, 6432),
-('Akshay Raul', 2015014, 11111, 'B/204,West Avenue', 2147483647, 102456),
-('Akshay', 2015015, 655, 'andheri', 9877546, 3000),
-('hello', 2015016, 684, 'adas', 575, 4684),
-('asda', 2015017, 4444, 'hju', 777777, 8888),
-('Srinath', 2015018, 654321, 'Andheri', 2147483647, 6666),
-('Mr.LOL', 2015019, 999, 'LOl', 12364, 9713),
-('Anugrah', 2015020, 101, 'Kota', 645232, 333),
-('pradeep raul', 2015021, 12463, 'B/204', 2147483647, 2123),
-('Pradeep', 2015022, 46555, 'B-204, West Avenue', 2147483647, 666666),
-('Akshay', 2015023, 6452, 'Nalasopara', 2147483647, 12345),
-('sdf', 2015024, 3553, 'adf`', 515, 335);
 
 -- --------------------------------------------------------
 
@@ -92,9 +77,6 @@ CREATE TABLE IF NOT EXISTS `Service` (
 --
 
 INSERT INTO `Service` (`Service Id`, `RegistrationNo`, `ServiceDate`, `CustomerId`, `ServiceNumber`, `ServiceType`, `Cost`) VALUES
-(1, 655, '2015-10-02', 2015010, 1, 'Normal', 500),
-(3, 121221, '2015-10-02', 2015011, 2, 'fd', 600),
-(4, 101, '2015-10-02', 2015020, 8, 'Express', 5000);
 
 -- --------------------------------------------------------
 
@@ -140,16 +122,6 @@ CREATE TABLE IF NOT EXISTS `TransactionBill` (
 --
 
 INSERT INTO `TransactionBill` (`BillId`, `CustomerId`, `RegistrationNo`, `VAT`, `Taxes`, `Registration_amount`, `Total`) VALUES
-(1, 1, 0, 3, 12.36, 100, 6000),
-(5, 2015012, 0, 3, 12.36, 120, 6200),
-(7, 2015014, 0, 3, 12.36, 2000, 13536),
-(9, 12, 2, 3, 12.36, 600000, 700000),
-(10, 2015018, 0, 3, 12.36, 60000, 752160),
-(11, 2015019, 999, 3, 12.36, 2000, 59680),
-(17, 2015020, 101, 3, 12.36, 20000, 712160),
-(18, 2015021, 12463, 3, 12.36, 20000, 135360),
-(19, 2015022, 46555, 3, 12.36, 30000, 145360),
-(20, 2015023, 6452, 3, 12.36, 555, 654134);
 
 -- --------------------------------------------------------
 
@@ -172,20 +144,6 @@ CREATE TABLE IF NOT EXISTS `Vehicles` (
 --
 
 INSERT INTO `Vehicles` (`CName`, `RegistrationNo`, `ShowroomId`, `YearofMan`, `Warranty`, `Type`) VALUES
-('Acura Rsx', 101, 10219, 2015, 2, 'Petrol'),
-('Acura 4x', 655, 10219, 0000, 6, 'Petrol'),
-('Acura Rsx', 999, 10219, 0000, 1, 'Petrol'),
-('BlueMotion 4WD', 1001, 10219, 2020, 2, 'Petrol'),
-('Acura Rsx', 3553, 10219, 2022, 22, 'Petrol'),
-('BlueMotion 4WD', 4444, 10219, 0000, 5, 'Diesel'),
-('Acura 4x', 6452, 10219, 2014, 2, 'Petrol'),
-('BlueMotion 4WD', 11111, 10219, 2021, 3, 'Petrol'),
-('Acura 4x', 12463, 10219, 2015, 2, 'Diesel'),
-('BlueMotion 4WD', 46555, 10219, 2015, 2, 'Diesel'),
-('', 87645, 0, 2011, 4, 'Petrol'),
-('BlueMotion 4WD', 121221, 10219, 2011, 3, 'Petrol'),
-('Acura 4x', 654321, 10219, 2030, 2, 'Diesel'),
-('Acura 4x', 123456789, 10219, 2015, 2, 'Petrol');
 
 -- --------------------------------------------------------
 
@@ -213,7 +171,7 @@ CREATE TABLE IF NOT EXISTS `WebsiteUsers` (
 --
 
 INSERT INTO `WebsiteUsers` (`userID`, `userName`, `pass`) VALUES
-(2, 'Akshay', 'password');
+(2, 'AereosDBA', 'password');
 
 -- --------------------------------------------------------
 
