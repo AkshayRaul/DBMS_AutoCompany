@@ -1,4 +1,5 @@
 <?php
+/*Akshay Raul*/
 session_start();
 $con=mysqli_connect("localhost","root","","Vehicle_Database") or die("Failed to connect to MySQL: " . mysql_error());
 
