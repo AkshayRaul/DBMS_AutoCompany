@@ -1,4 +1,5 @@
 <?php
+/*Author:Akshay Raul */
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'Vehicle_Database');
 define('DB_USER','root');
